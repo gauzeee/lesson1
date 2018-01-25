@@ -1,7 +1,7 @@
 puts "Введите длину основания треугольника (см) для вычисления его площади"
-a = gets.chomp
+base = gets.chomp.to_i
 puts "Введите высоту треугольника (см)"
-h = gets.chomp
+height = gets.chomp.to_i
 
-s = (a.to_i*h.to_i)/2
+s = (base * height)/2
 puts "Площаль треугольника равна #{s} см квадратных"

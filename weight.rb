@@ -7,6 +7,6 @@ weight = height - 110
 
 if weight > 0
   puts "#{name}, ваш идеальный вес #{weight} кг!"
-else 
+else
   puts "#{name}, ваш вес уже оптимальный"
 end

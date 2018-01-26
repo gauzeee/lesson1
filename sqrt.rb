@@ -5,17 +5,17 @@ b = gets.to_f
 puts "Введите С"
 c = gets.to_f
 
-D = b**2 - 4*a*c
+D = b**2 - 4 * a * c
 puts "D (дискриминант) = #{D}"
 
 if D < 0 
 	puts "Уравнение не имеет корней"
 elsif D > 0 
   disc = Math.sqrt(D)
-	x1 = (-b + disc)/2*a
-	x2 = (-b - disc)/2*a
+	x1 = (-b + disc)/2 * a
+	x2 = (-b - disc)/2 * a
 	puts "X1 = #{x1}; X2 = #{x2};"
 else 
-	x = (-b)/2*a 
+	x = (- b) / 2 * a 
 	puts "X = #{x};"
 end

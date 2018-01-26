@@ -31,7 +31,7 @@ else
  result_three = "равнобедренный"
 end
 
-if hyp ** 2 == cat1 ** 2 + cat2 ** 2
+if hyp**2 == cat1**2 + cat2**2
  result_angle = "прямоугольный"
 else
  result_angle = "не прямоугольный"

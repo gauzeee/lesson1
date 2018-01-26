@@ -17,15 +17,15 @@ elsif c > a && c > b
 hyp = c
  cat1 = b
  cat2 = a
-else a = b && c = b && a = c
+else 
   hyp = a
   cat1 = b
   cat2 = c
 end
 
-if cat1 != hyp && hyp != cat2 && cat2 != cat1
+if a != b && a != c && c != b
   result_three = "не имеет равных сторон"
-elsif cat1 = hyp && cat2 = hyp && cat1 = cat2
+elsif b == a && c == a && c == b
   result_three = "равносторонний"
 else 
   result_three = "равнобедренный"

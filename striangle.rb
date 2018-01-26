@@ -3,5 +3,5 @@ base = gets.chomp.to_f
 puts "Введите высоту треугольника (см)"
 height = gets.chomp.to_f
 
-s = (base * height)/2
+s = (base * height) / 2
 puts "Площаль треугольника равна #{s} см квадратных"
